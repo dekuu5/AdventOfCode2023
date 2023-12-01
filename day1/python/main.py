@@ -3,9 +3,9 @@ from src.part2 import part2
 
 
 def main(): 
-    with open('./src/input1.txt', 'r') as f:
+    with open('./src/input2.txt', 'r') as f:
         input = f.read()
-    print(part1(input))
+    print(part2(input))
     # print(part2(input))
 
 
